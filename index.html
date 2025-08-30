@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam's Portfolio - Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">SHIVAM KANSE</div>
+            <nav class="nav">
+                <a href="#about" class="nav-link"><i class="fas fa-user"></i>About</a>
+                <a href="#projects" class="nav-link"><i class="fas fa-code"></i>Projects</a>
+                <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i>Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Developer & Designer</h1>
+            <p class="hero-subtitle">Crafting digital experiences with passion and precision. Specializing in modern web development, AI integration, and innovative design solutions.</p>
+            <div class="hero-buttons">
+                <button class="action-btn primary" id="viewProjectsBtn">
+                    <i class="fas fa-rocket"></i>View Projects
+                </button>
+                <button class="action-btn secondary" id="downloadCVBtn">
+                    <i class="fas fa-download"></i>Download CV
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Grid Layout -->
+        <div class="grid-container">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- About Section -->
+                <div class="content-block about-section">
+                    <h2><i class="fas fa-user"></i>About Me</h2>
+                    <p>I'm a passionate developer with a keen eye for design and a love for creating innovative digital solutions. With expertise in modern web technologies and AI integration, I bring ideas to life through clean, efficient code and intuitive user experiences.</p>
+                    <p>My journey in tech started with curiosity and has evolved into a passion for building applications that not only function flawlessly but also delight users. I believe in the power of technology to solve real-world problems and create meaningful connections.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="content-block contact-section">
+                    <h2><i class="fas fa-envelope"></i>Get In Touch</h2>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>shivamkanse2104@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9951510421</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Chennai, Tamil Nadu</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form Section -->
+                <div class="content-block contact-form-section">
+                    <h2><i class="fas fa-paper-plane"></i>Send Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="action-btn primary">
+                            <i class="fas fa-paper-plane"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Profile Section -->
+                <div class="content-block profile-section">
+                    <h2><i class="fas fa-user-circle"></i>Profile</h2>
+                    <div class="profile-image">
+                        <img src="profile.jpg" alt="Shivam Kanse Profile" style="width: 100%; height: 100%; object-fit: cover; border-radius: 24px;">
+                    </div>
+                </div>
+
+                <!-- Work Section -->
+                <div class="content-block">
+                    <h2><i class="fas fa-briefcase"></i>My Works</h2>
+                    <div class="work-preview">
+                        <img src="works.jpg" alt="Works Preview" style="width: 100%; height: 100%; object-fit: cover; border-radius: 24px;">
+                    </div>
+                    <div class="work-categories">
+                        <div class="work-category">
+                            <h3><i class="fas fa-mobile-alt"></i>web Development</h3>
+                            <p>Creating responsive and intuitive websites that provide seamless user experiences across all devices.</p>
+                        </div>
+                        <div class="work-category">
+                            <h3><i class="fas fa-paint-brush"></i>UI/UX Design</h3>
+                            <p>Designing beautiful and functional interfaces that prioritize user experience and accessibility.</p>
+                        </div>
+                        <div class="work-category">
+                            <h3><i class="fas fa-book"></i>Noveliest</h3>
+                            <p>Wrote 2 Novels and an article and got appreciation from the readers.</p>
+                            <p>Creating engaging novels and informative articles that provide value to the reader.</p>
+                        </div>
+                        <div class="work-category">
+                            <h3><i class="fas fa-table-tennis-paddle-ball"></i>Sports</h3>
+                            <p>Played Lawn Tennis and won many matches and played in state level too.</p>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="action-btn primary" id="viewProjectsBtn2">
+                            <i class="fas fa-rocket"></i>View Projects
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Projects Modal -->
+    <div id="projectsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 style="text-align: center; margin-bottom: 2rem; background: var(--gradient-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Learning Portal</h3>
+                    <p>A learning portal for students to learn and improve their skills and help them to get better opportunities.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>startup validator</h3>
+                    <p>Interactive dashboard for validating the startups and help them to get funding and resources.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                        <span>PHP</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI Assistant</h3>
+                    <p>Intelligent career guidance system using machine learning to provide personalized recommendations based on skills, experience, and market trends.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>MySQL</span>
+                        <span>ChatGPT API</span>
+                        <span>OpenAI API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Noveliest</h3>
+                    <p>Creating engaging novels and informative articles representing the real world and helping the reader to learn and improve their creativity.</p>
+                    <div class="project-tech">
+                        <span>Google Docs</span>
+                        <span>Microsoft Word</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-rocket"></i>Ready to Launch?</h3>
+                <p><i class="fas fa-envelope"></i>Let's discuss your next project</p>
+                <p><i class="fas fa-phone"></i>Available for freelance opportunities</p>
+                <p><i class="fas fa-calendar"></i>Open to new collaborations</p>
+            </div>
+            <div class="footer-section">
+                <p>Copyright © 2025 Shivam Kanse</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
